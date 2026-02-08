@@ -18,7 +18,11 @@
     <meta property="og:url" content="https://paulhy.vercel.app">
     <meta property="og:type" content="website">
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Modular CSS -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -103,15 +107,16 @@
     <section id="galeria" class="container">
         <h2>Atmosfera Visual</h2>
         <div class="photo-grid">
-            <div class="photo-item"><img src="assets/img/foto1.jpg" alt="DJ Paulhyyy performance"></div>
-            <div class="photo-item"><img src="assets/img/foto2.jpg" alt="Pista de dança"></div>
-            <div class="photo-item"><img src="assets/img/foto3.jpg" alt="Detalhe equipamento"></div>
-            <div class="photo-item"><img src="assets/img/foto4.jpg" alt="Galeria foto 4"></div>
-            <div class="photo-item"><img src="assets/img/foto5.jpg" alt="Galeria foto 5"></div>
-            <div class="photo-item"><img src="assets/img/foto6.jpg" alt="Galeria foto 6"></div>
-            <div class="photo-item"><img src="assets/img/foto7.jpg" alt="Galeria foto 7"></div>
-            <div class="photo-item"><img src="assets/img/foto8.jpg" alt="Galeria foto 8"></div>
-            <div class="photo-item"><img src="assets/img/foto9.jpg" alt="Galeria foto 9"></div>
+            <div class="photo-item"><img src="assets/img/foto1.jpg" alt="Performance DJ Paulhyyy - Foto 1"></div>
+            <div class="photo-item"><img src="assets/img/foto2.jpg" alt="Pista de dança vibrante - Foto 2"></div>
+            <div class="photo-item"><img src="assets/img/foto3.jpg" alt="Equipamento de DJ em detalhe - Foto 3"></div>
+            <div class="photo-item"><img src="assets/img/foto4.jpg" alt="Momento de conexão com o público - Foto 4">
+            </div>
+            <div class="photo-item"><img src="assets/img/foto5.jpg" alt="Luzes e atmosfera da festa - Foto 5"></div>
+            <div class="photo-item"><img src="assets/img/foto6.jpg" alt="DJ Paulhyyy em ação - Foto 6"></div>
+            <div class="photo-item"><img src="assets/img/foto7.jpg" alt="Crowd imersa na música - Foto 7"></div>
+            <div class="photo-item"><img src="assets/img/foto8.jpg" alt="Instalação visual do evento - Foto 8"></div>
+            <div class="photo-item"><img src="assets/img/foto9.jpg" alt="Close-up performance artística - Foto 9"></div>
         </div>
     </section>
 
@@ -133,19 +138,22 @@
                 <a href="#">EPK / Rider (PDF)</a>
             </div>
             <p class="copyright">&copy; 2026 DJ Paulhy. All rights reserved.</p>
+            <p class="developer">Desenvolvido por <a href="https://github.com/pv-flows" target="_blank">pv-flows</a>.
+                Todos os direitos reservados.</p>
         </div>
     </footer>
 
     <!-- Lightbox Modal -->
     <div id="lightbox" class="lightbox">
         <span class="close-lightbox">&times;</span>
-        <img class="lightbox-content" id="lightbox-img">
+        <img class="lightbox-content" id="lightbox-img" alt="Imagem ampliada da galeria">
         <div class="lightbox-caption"></div>
-        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Modular JS -->
+    <script type="module" src="assets/js/main.js"></script>
 </body>
 
 </html>
