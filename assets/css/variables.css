@@ -1,9 +1,9 @@
 :root {
     --bg-color: #0a0a0a;
     --text-color: #e0e0e0;
-    --primary-color: #7b2cbf;
-    /* Roxo Neon */
-    --accent-color: #9d4edd;
+    --primary-color: #D90429;
+    /* Vermelho Neon */
+    --accent-color: #FF3131;
     --font-heading: 'Syne', sans-serif;
     --font-body: 'Inter', sans-serif;
 }
